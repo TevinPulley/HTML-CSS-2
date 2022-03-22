@@ -1,0 +1,65 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.Header {
+  width: 100%;
+  height: 75px;
+  background-color: #000000;
+  color: white;
+  font-size: 60px;
+  padding: 25px;
+}
+button {
+  background-color: transparent;
+  color: white;
+  position: relative;
+  border: 3px solid black;
+  padding: 20px;
+}
+
+button:hover {
+  text-decoration: underline;
+  background-color: white;
+  color: black;
+}
+
+#re-watch {
+  text-decoration: none;
+}
+
+#top-right-buttons button {
+  position: absolute;
+
+  background-color: white;
+  float: left;
+}
+.pic {
+  margin: 0;
+  position: relative;
+}
+
+.upper-text {
+  position: absolute;
+
+  top: 550px;
+  left: 60px;
+  color: white;
+}
+
+.lower-txt {
+  position: absolute;
+
+  top: 550px;
+  left: 50px;
+  color: white;
+}
+
+div.upper-text p {
+  font-size: 45px;
+  margin: 0;
+  padding: 0;
+}
